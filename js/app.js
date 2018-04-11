@@ -104,7 +104,7 @@ var module={
            return (Math.random() >= 0.5);
        }
        $.each(attendance.cardStudent,function (key) {
-           for(var i=0;i<attendance.cardDays-1;i++){
+           for(var i=0;i<attendance.cardDays;i++){
                this.push(getRandom());
            }
        });
